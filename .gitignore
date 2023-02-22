@@ -36,3 +36,6 @@
 
 # vscode folder
 .vscode
+
+# McOS
+.DS_Store
