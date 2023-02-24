@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
-        def fesible(capacity:int) -> bool:
+        def fesible(capacity: int) -> bool:
             sum = 0
             days_needed = 1
             for w in weights:
@@ -13,10 +13,10 @@ class Solution:
                     if days_needed > days:
                         return False
             return True
-        
+
         total_load, max_load = 0, 0
         for w in weights:
-            total_load += w;
+            total_load += w
             max_load = max(max_load, w)
         left, right = max_load, total_load
         while left < right:
@@ -26,6 +26,7 @@ class Solution:
             else:
                 left = middle+1
         return left
+
 
 if __name__ == '__main__':
     solution = Solution()
