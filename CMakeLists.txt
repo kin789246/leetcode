@@ -4,7 +4,7 @@ project(leetcode VERSION 0.1.0)
 include(CTest)
 enable_testing()
 set(SRC_FILES
-   leetcode-121.cpp
+   leetcode-72.cpp
    )
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
