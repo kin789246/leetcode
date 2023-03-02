@@ -4,7 +4,7 @@ project(leetcode VERSION 0.1.0)
 include(CTest)
 enable_testing()
 set(SRC_FILES
-   leetcode-912_sort_an_array.cpp
+   leetcode-443_str_compression.cpp
    )
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
