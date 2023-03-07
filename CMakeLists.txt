@@ -4,7 +4,7 @@ project(leetcode VERSION 0.1.0)
 include(CTest)
 enable_testing()
 set(SRC_FILES
-   leetcode-4_median_of_2_sorted.cpp
+   leetcode-5_palindromic.cpp
    )
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
