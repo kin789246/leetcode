@@ -4,7 +4,7 @@ project(leetcode VERSION 0.1.0)
 include(CTest)
 enable_testing()
 set(SRC_FILES
-   leetcode-1_two_sum.cpp
+   binary_tree.cpp
    )
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
