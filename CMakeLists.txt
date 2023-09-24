@@ -4,7 +4,7 @@ project(leetcode VERSION 0.1.0)
 include(CTest)
 enable_testing()
 set(SRC_FILES
-   leetcode-46_Permutations.cpp
+   leetcode-567_permutation_in_string.cpp
    )
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
