@@ -4,7 +4,7 @@ project(leetcode VERSION 0.1.0)
 include(CTest)
 enable_testing()
 set(SRC_FILES
-   leetcode-567_permutation_in_string.cpp
+   leetcode-76_minimum_window_substring.cpp
    )
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
