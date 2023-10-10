@@ -4,7 +4,7 @@ project(leetcode VERSION 0.1.0)
 include(CTest)
 enable_testing()
 set(SRC_FILES
-   leetcode-76_minimum_window_substring.cpp
+   leetcode-79_word_search.cpp
    )
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 

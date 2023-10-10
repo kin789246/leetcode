@@ -39,3 +39,6 @@
 
 # McOS
 .DS_Store
+
+# cache folder
+.cache
